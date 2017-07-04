@@ -1,0 +1,48 @@
+hash: 120fc076b63cb6d05a21085f5c0b5a4da9afa5bacb49614f95c1178cf053bf8c
+updated: 2017-07-04T18:34:59.902229775+08:00
+imports:
+- name: github.com/armon/go-metrics
+  version: f036747b9d0e8590f175a5d654a2194a7d9df4b5
+- name: github.com/golang/protobuf
+  version: c3cefd437628a0b7d31b34fe44b3a7a540e98527
+  subpackages:
+  - proto
+- name: github.com/hashicorp/errwrap
+  version: 7554cd9344cec97297fa6649b055a8c98c2a1e55
+- name: github.com/hashicorp/go-msgpack
+  version: fa3f63826f7c23912c15263591e65d54d080b458
+  subpackages:
+  - codec
+- name: github.com/hashicorp/go-multierror
+  version: 83588e72410abfbe4df460eeb6f30841ae47d4c4
+- name: github.com/hashicorp/go-sockaddr
+  version: 41949a141473f6340abc6ba0fcd0f89da6f6f837
+- name: github.com/hashicorp/memberlist
+  version: ef1747ec2d3ff86cdace44755946335d9d9468fc
+- name: github.com/miekg/dns
+  version: e46719b2fef404d2e531c0dd9055b1c95ff01e2e
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+- name: github.com/sean-/seed
+  version: e2103e2c35297fb7e17febb81e49b312087a2372
+- name: golang.org/x/net
+  version: 7c62cfdcccc65f87b0120ec841012ba816fc1aec
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: google.golang.org/grpc
+  version: 13edeeffdea7a41d5aad96c28deb4c7bd01a9397
+  subpackages:
+  - codes
+  - credentials
+  - grpclog
+  - internal
+  - metadata
+  - naming
+  - peer
+  - transport
+testImports: []

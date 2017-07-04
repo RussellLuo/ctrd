@@ -1,0 +1,4 @@
+package: github.com/RussellLuo/ctrd
+import:
+- package: github.com/hashicorp/memberlist
+- package: github.com/satori/go.uuid
